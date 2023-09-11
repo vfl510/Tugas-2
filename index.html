@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assigment 2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Bagian Navbar-->
+    <section id="navbar">
+      <ul class="menu">
+        <li>HOME</li>
+        <li>PRODUCT</li>
+        <li>GALLERY</li>
+        <li>BLOG</li>
+        <li>INVENTORY</li>
+      </ul>
+    </section>
+    <!--Bagian Profil Section-->
+    <section id="profil">
+      <div class="picture">
+        <img id="imageTarget" src="https://assets-a1.kompasiana.com/items/album/2021/03/24/blank-profile-picture-973460-1280-605aadc08ede4874e1153a12.png?t=o&v=1200" alt="foto profil" />
+      </div>
+      <div class="identity">
+        <h1 id="nameTarget">Nama Anda</h1>
+        <p id="roleTarget">Role</p>
+        <button id="editButton">Edit</button>
+        <button>Resume</button>
+      </div>
+      <div class="keterangan">
+        <table>
+          <tr>
+            <td><strong>Availability</strong></td>
+            <td id="availabilityTarget">-</td>
+          </tr>
+          <tr>
+            <td><strong>Usia</strong></td>
+            <td id="usiaTarget">-</td>
+          </tr>
+          <tr>
+            <td><strong>Lokasi</strong></td>
+            <td id="lokasiTarget">-</td>
+          </tr>
+          <tr>
+            <td><strong>Pengalaman</strong></td>
+            <td id="pengalamanTarget">-</td>
+          </tr>
+          <tr>
+            <td><strong>Email</strong></td>
+            <td id="emailTarget">-</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <section id="formulir">
+      <form id="form" class="hide-content">
+        <label for="formName">Nama</label>
+        <input id="formName" type="text" name="userName" />
+        <label for="formRole">Role</label>
+        <input id="formRole" type="text" name="userRole" />
+        <label for="formAvailability">Availability</label>
+        <input id="formAvailability" type="text" name="userAvailability" />
+        <label for="formUsia">Usia</label>
+        <input id="formUsia" type="number" name="userUsia" />
+        <label for="formLokasi">Lokasi</label>
+        <input id="formLokasi" type="text" name="userLokasi" />
+        <label for="formPengalaman">Pengalaman</label>
+        <input id="formPengalaman" type="number" name="userPengalaman" />
+        <label for="formEmail">Email</label>
+        <input id="formEmail" type="email" name="userEmail" />
+        <label for="formImage">Image</label>
+        <input id="formImage" type="file" name="userImage" />
+        <button id="submitButton"><strong>SUBMIT</strong></button>
+      </form>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>

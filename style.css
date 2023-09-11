@@ -1,0 +1,71 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#navbar {
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 10px 10px 100px rgb(192, 193, 193);
+  border: solid 1px rgb(220, 220, 220);
+}
+
+.menu {
+  text-align: right;
+}
+
+.menu li {
+  display: inline;
+  padding: 20px;
+}
+
+#profil {
+  display: flex;
+  height: 200px;
+  margin: 20px;
+  box-shadow: 10px 10px 50px rgb(192, 193, 193);
+  border: solid 1px rgb(220, 220, 220);
+}
+
+.picture {
+  display: flex;
+}
+
+img {
+  border-radius: 100%;
+  padding: 20px;
+  height: 150px;
+  width: 150px;
+}
+
+.identity {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.keterangan {
+  flex-grow: 2;
+  padding: 10px;
+}
+
+#formulir {
+  margin: 20px;
+  box-shadow: 10px 10px 20px rgb(192, 193, 193);
+  border: solid 1px rgb(220, 220, 220);
+  font-weight: bold;
+  padding: 20px;
+}
+
+.hide-content {
+  display: none;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#submitButton {
+  padding: 5px;
+}
