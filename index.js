@@ -1,6 +1,6 @@
 //button
 const editButton = document.getElementById("editButton");
-const editForm = document.getElementById("form");
+const editForm = document.getElementById("formulir");
 
 //form items
 const formName = document.getElementById("formName");
@@ -54,12 +54,11 @@ function mySubmitButton(event) {
   emailTarget.innerHTML = currentEmail;
 
   //set file to target
-  //cek if file exist
   if (currentFile) {
     //buat instance file reader
     const reader = new FileReader();
 
-    //set function onload saat filereader beres
+    //set function onload saat filereader selesai
     reader.onload = function (e) {
       imageTarget.src = e.target.result;
     };

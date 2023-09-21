@@ -19,6 +19,15 @@
   padding: 20px;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li:hover {
+  font-weight: bold;
+}
+
 #profil {
   display: flex;
   height: 200px;
@@ -40,12 +49,31 @@ img {
 
 .identity {
   flex-grow: 1;
-  padding: 20px;
+  padding: 50px 30px 30px;
+}
+
+.identity button {
+  padding: 8px;
+  border-radius: 5px;
+  width: 80px;
+  background-color: blue;
+  border-color: transparent;
+  color: white;
+  margin-inline-end: 20px;
+  margin-top: 30px;
+}
+
+.identity button:hover {
+  background-color: rgb(95, 178, 255);
+  font-weight: bold;
+  color: white;
+  box-shadow: 5px 5px 20px rgb(194, 194, 194);
 }
 
 .keterangan {
   flex-grow: 2;
-  padding: 10px;
+  padding: 20px;
+  line-height: 30px;
 }
 
 #formulir {
@@ -68,4 +96,15 @@ input {
 
 #submitButton {
   padding: 5px;
+  width: 100%;
+  background-color: rgb(0, 183, 113);
+  border-color: transparent;
+  border-radius: 5px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#submitButton:hover {
+  background-color: rgb(0, 255, 170);
+  font-weight: bolder;
+  box-shadow: 5px 5px 20px rgb(194, 194, 194);
 }
